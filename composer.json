@@ -1,0 +1,18 @@
+{
+	"name": "youloge/io",
+	"type"  : "library",
+	"homepage": "https://youfeed.github.io",
+	"license" : "MIT",
+	"autoload": {
+		"psr-4": {
+			"Youloge\\Webman\\": "src/",
+			"Youloge\\RedisQueue\\": "redis-queue/",
+			"Webman\\RedisQueue\\": "webman-queue/",
+			"Youloge\\Http\\": "http-client/"
+		}
+	},
+	"require": {
+		"php": ">=8.0",
+		"workerman/workerman": "v5.0.0-beta.3"
+	}
+}
