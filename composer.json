@@ -13,6 +13,6 @@
 	},
 	"require": {
 		"php": ">=8.0",
-		"workerman/workerman": "v5.0.0-beta.3"
+		"workerman/workerman": "^5.0.0"
 	}
 }
